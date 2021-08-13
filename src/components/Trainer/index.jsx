@@ -35,7 +35,7 @@ const Trainer = () => {
               alt="imagen ruth"
               style={{ height: "100%", width: "100%", objectFit: "cover" }}
             />
-            <div className="absolute  flex items-center justify-center  text-white bg-black  opacity-0 duration-300 hover:opacity-75 inset-0  transition-all ease-in-out">
+            <div className="absolute z-10  flex items-center justify-center  text-white bg-black  opacity-0 duration-300 hover:opacity-75 inset-0  transition-all ease-in-out">
               <div className="flex flex-col items-center justify-center">
                 <h3 className="text-2xl font-bold capitalize">
                   Ruth Benavente
@@ -62,7 +62,7 @@ const Trainer = () => {
               alt="imagen Pedro"
               style={{ height: "100%", width: "100%", objectFit: "cover" }}
             />
-            <div className="absolute  flex items-center justify-center  text-white bg-black  opacity-0 duration-300 hover:opacity-75 inset-0  transition-all ease-in-out">
+            <div className="absolute z-10  flex items-center justify-center  text-white bg-black  opacity-0 duration-300 hover:opacity-75 inset-0  transition-all ease-in-out">
               <div className="flex flex-col items-center justify-center">
                 <h3 className="text-2xl font-bold capitalize">Pedro Castro</h3>
                 <p className="text-5xl font-semibold py-1 text-yellow-500">
@@ -87,7 +87,7 @@ const Trainer = () => {
               alt="imagen ruth"
               style={{ height: "100%", width: "100%", objectFit: "cover" }}
             />
-            <div className="absolute  flex items-center justify-center  text-white bg-black  opacity-0 duration-300 hover:opacity-75 inset-0  transition-all ease-in-out">
+            <div className="absolute z-10 flex items-center justify-center  text-white bg-black  opacity-0 duration-300 hover:opacity-75 inset-0  transition-all ease-in-out">
               <div className="flex flex-col items-center justify-center">
                 <h3 className="text-2xl font-bold capitalize">Sergio Cueva</h3>
                 <p className="text-5xl font-semibold py-1 text-yellow-500">
@@ -107,9 +107,8 @@ const Trainer = () => {
           </div>
         </div>
         <button
-          
           onClick={() => setOpenModal(!openModal)}
-          className="  text-xl w-72 relative z-10 mx-auto uppercase bg-yellow-500 text-white py-2 sm:mb-16 mb-5  shadow-xl rounded-md    flex items-center gap-1 justify-center mt-7  hover:text-yellow-600"
+          className="  text-xl w-72 relative z-10 mx-auto uppercase bg-yellow-500 font-semibold text-white py-2 sm:mb-16 mb-5  shadow-xl rounded-md    flex items-center gap-1 justify-center mt-7  hover:text-yellow-200"
         >
           more Trainers <BiRightArrowAlt size="30" color="white" />
         </button>
